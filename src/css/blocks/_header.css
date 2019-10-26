@@ -1,0 +1,25 @@
+.header {
+  background-image: url(/img/firstBack.png);
+  background-position: top; }
+  .header__title {
+    color: white;
+    font-family: JosefinSans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase; }
+  .header__subtitle {
+    color: white;
+    font-family: JosefinSans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1; }
+  .header__scroll {
+    color: white;
+    font-family: JosefinSans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase; }
+  .header__scroll-svg {
+    background-color: white; }

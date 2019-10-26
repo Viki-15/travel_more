@@ -1,0 +1,30 @@
+.spain {
+  background-image: url(/img/thirdBack.png); }
+  .spain__background {
+    background-color: rgba(35, 35, 35, 0.5); }
+  .spain__title {
+    color: #e8e8e8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px; }
+  .spain__subtitle {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase; }
+  .spain__txt {
+    color: #e8e8e8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; }
+  .spain__link {
+    color: white;
+    font-family: 'aleoregular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase; }

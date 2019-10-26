@@ -1,0 +1,146 @@
+.menu {
+    // max-height: 80px;
+    padding: 27px 0;
+    background-color: #5373FB;
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        margin-left: 43px;
+
+    }
+
+    &__link {
+        color: white;
+        font-family: 'aleoregular';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+
+        &:hover {
+            // text-decoration: underline;
+            border: 2px solid white;
+            padding: 25px 30px;
+            margin: 0 -32px;
+        }
+    }
+
+    &__burger {
+        display: none;
+    }
+
+    &__check {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+    .menu {
+        &__burger {
+            display: none;
+        }
+
+        &__check {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .menu {
+        position: relative;
+
+        &__burger {
+            display: block;
+            position: relative;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+            z-index: 2;
+        }
+
+        &__times {
+            display: none;
+        }
+
+        &__times,
+        &__bars {
+            font-size: 40px;
+            color: white;
+        }
+
+        &__list {
+            display: block;
+            position: absolute;
+            overflow: hidden;
+            right: 0;
+            top: 100%;
+            width: 100%;
+            max-height: 0;
+            font-size: 0;
+            transition: .8s;
+            z-index: 1;
+            overflow: hidden;
+
+        }
+
+        &__check {
+            display: none;
+        }
+
+        &__check:checked+&__burger+&__list {
+            max-height: 200px;
+        }
+
+        &__check:checked+&__burger>&__bars {
+            display: none;
+        }
+
+        &__check:checked+&__burger>&__times {
+            display: block;
+        }
+
+        &__item {
+            display: block;
+            width: 100%;
+            text-align: center;
+            cursor: pointer;
+            margin: 0;
+
+            &:hover {
+                background-color: white;
+                color: #5373FB;
+            }
+        }
+
+        &__link {
+            width: 100%;
+            display: block;
+            color: white;
+            font-family: 'aleoregular';
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 26px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            text-decoration: none;
+            border: 3px solid white;
+            padding: 7px;
+            background-color: #5373FB;
+
+
+            &:hover,
+            &:active {
+                color: #5373FB;
+                background-color: white;
+                padding: 7px;
+                margin: 0;
+            }
+        }
+    }
+}

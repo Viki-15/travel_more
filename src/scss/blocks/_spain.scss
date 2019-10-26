@@ -1,0 +1,97 @@
+.spain {
+    &--first {
+        background-image: url(/img/thirdBack.png);
+        padding: 230px 0 100px 0;
+
+        @media screen and (max-width: 767px) {
+            padding: 150px 0 100px 0;
+        }
+    }
+
+    &--second {
+        background-image: url(/img/fourthBack.png);
+        padding: 230px 0 100px 0;
+
+        @media screen and (max-width: 767px) {
+            padding: 150px 0 100px 0;
+        }
+    }
+
+
+    &__background {
+        background-color: rgba(35, 35, 35, 0.5);
+        padding: 46px 8px 47px 29px;
+    }
+
+    &__title {
+        color: #e8e8e8;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 24px;
+    }
+
+    &__subtitle {
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        letter-spacing: -0.05em;
+        margin-bottom: 18px;
+
+    }
+
+    &__txt {
+        color: #e8e8e8;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        letter-spacing: -0.07em;
+        margin-bottom: 42px;
+    }
+
+    &__span {
+        position: relative;
+        z-index: 2;
+
+    }
+
+    &__link {
+        position: relative;
+        display: inline-block;
+        color: white;
+        font-family: 'aleoregular';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        border: 3px solid #496BFE;
+        background-color: #496BFE;
+        padding: 14px 60px;
+        letter-spacing: 0.06em;
+        cursor: pointer;
+        overflow: hidden;
+
+        &::before {
+            content: "";
+            display: block;
+            margin-left: 20px;
+            width: 150px;
+            height: 100px;
+            transform: skew(20deg);
+            background: #5474fd;
+            position: absolute;
+            top: -20px;
+            z-index: 1;
+        }
+
+        &:hover {
+            border: 3px solid white;
+            box-shadow: 0 0 10px white;
+        }
+    }
+}

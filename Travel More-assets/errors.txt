@@ -1,0 +1,5 @@
+[Fri Oct 25 2019 12:49:30 GMT+0300 (Финляндия (лето))] layer "facebook.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[Fri Oct 25 2019 12:49:30 GMT+0300 (Финляндия (лето))] layer "twitter.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[Fri Oct 25 2019 12:49:30 GMT+0300 (Финляндия (лето))] layer "in.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[Fri Oct 25 2019 12:49:30 GMT+0300 (Финляндия (лето))] layer "yotube.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[Fri Oct 25 2019 12:49:30 GMT+0300 (Финляндия (лето))] layer "p.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.

@@ -1,0 +1,21 @@
+.search__label {
+  color: #999;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1; }
+
+.search__btn {
+  background-color: #5474fd;
+  border: 2px solid white; }
+
+.search__span {
+  color: white;
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase; }
+
+.search__svg {
+  background-color: white; }

@@ -1,0 +1,120 @@
+.what {
+    background-image: url(/img/fivthBack.png);
+    background-position: top;
+    padding: 121px 0 200px 0;
+    position: relative;
+
+    @media screen and (max-width: 1199px) {
+        padding: 80px 0 140px 0;
+    }
+
+    @media screen and (max-width: 991px) {
+        padding: 80px 0 120px 0;
+    }
+
+    @media screen and (max-width: 767px) {
+        padding: 40px 0 10px 0;
+    }
+
+
+
+    &__title {
+        color: white;
+        font-family: 'aleoregular';
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 100px;
+        margin-left: -4px;
+        letter-spacing: 0.01em;
+
+        @media screen and (max-width: 991px) {
+            line-height: 1.5;
+            font-size: 32px;
+        }
+
+        @media screen and (max-width: 767px) {
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+    }
+
+    &__background {
+        background-color: #333;
+        max-width: 1110px;
+        width: 100%;
+
+        @media screen and (max-width: 991px) {
+            overflow: hidden;
+        }
+
+    }
+
+    &__subtitle {
+        color: #fefefe;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        margin: 48px 0 27px 40px;
+        letter-spacing: -0.03em;
+
+        @media screen and (max-width: 1199px) {
+            margin: 48px 0 27px 70px;
+        }
+
+        @media screen and (max-width: 991px) {
+            margin: 10px 0 27px 40px;
+        }
+
+        @media screen and (max-width: 767px) {}
+    }
+
+    &__txt {
+        font-weight: 400;
+        line-height: 26px;
+        color: #e8e8e8;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        margin-left: 41px;
+        letter-spacing: -0.05em;
+
+        &::before {
+            content: '❝';
+            display: inline-block;
+            position: relative;
+            color: #5474FD;
+            font-size: 60px;
+        }
+
+        @media screen and (max-width: 1199px) {
+            margin-left: 75px;
+        }
+
+        @media screen and (max-width: 991px) {
+            margin-left: 10px;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__pic {
+
+        @media screen and (max-width: 991px) {
+            display: block;
+            overflow: hidden;
+        }
+    }
+
+    &__img {
+        display: block;
+
+        @media screen and (max-width: 991px) {
+            // display: block;
+            position: relative;
+            left: -100px;
+            overflow: hidden;
+        }
+
+    }
+}

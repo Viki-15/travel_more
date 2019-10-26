@@ -1,0 +1,97 @@
+.why {
+    background-image: url(/img/secondBack.png);
+    padding: 205px 0 129px 0;
+
+    @media screen and (max-width: 1199px) {
+        padding: 205px 0 101px 0;
+    }
+
+    @media screen and (max-width: 991px) {
+        padding: 207px 0 101px 0;
+    }
+
+    @media screen and (max-width: 767px) {
+        padding: 208px 0 60px 0;
+    }
+
+    &__title {
+        color: white;
+        font-family: 'aleoregular';
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 64px;
+
+        @media screen and (max-width: 767px) {
+            margin-bottom: 24px;
+        }
+    }
+
+    &__txt {
+        color: #e8e8e8;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 26px;
+        letter-spacing: 0.034em;
+    }
+
+
+    &__link {
+        position: relative;
+        display: inline-block;
+        color: white;
+        font-family: 'aleoregular';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        border: 3px solid #496BFE;
+        background-color: #496BFE;
+        padding: 14px 35px;
+        margin-top: 16px;
+        letter-spacing: 0.07em;
+        overflow: hidden;
+        z-index: 2;
+
+        &::before {
+            content: "";
+            display: block;
+            margin-left: 50px;
+            width: 150px;
+            height: 100px;
+            transform: skew(20deg);
+            background: #5474fd;
+            position: absolute;
+            top: -20px;
+        }
+
+
+        &:hover {
+            border: 3px solid white;
+            box-shadow: 0 0 10px white;
+        }
+    }
+
+    &__span {
+        position: relative;
+        z-index: 1;
+    }
+
+    &__img-first {
+        margin: 120px 0 0 64px;
+
+        @media screen and (max-width: 1199px) {
+            margin: 120px 0 0 0px;
+        }
+    }
+
+    &__img-second {
+        margin: 2px 0 117px 189px;
+
+        @media screen and (max-width: 1199px) {
+            margin: 2px 0 117px 100px;
+        }
+    }
+}
