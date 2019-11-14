@@ -1,7 +1,7 @@
 .header {
-    background-image: url(/img/firstBack.png);
+    background-image: url(../img/firstBack.png);
     background-position: top;
-    padding: 281px 0 131px 0;
+    padding: 281px 0 123px 0;
     text-align: center;
 
     &__title {
@@ -13,6 +13,7 @@
         text-transform: uppercase;
         margin-bottom: 7px;
         letter-spacing: 0.058em;
+        text-align: center;
 
         @media screen and (max-width: 767px) {
             font-size: 36px;
@@ -37,9 +38,10 @@
         line-height: 26px;
         text-transform: capitalize;
         letter-spacing: 0.14em;
+
+        &:hover {
+            color: #FF6363;
+        }
     }
 
-    &__icon {
-        color: white;
-    }
 }

@@ -1,6 +1,7 @@
 .what {
-    background-image: url(/img/fivthBack.png);
+    background-image: url(../img/fivthBack.png);
     background-position: top;
+    ;
     padding: 121px 0 200px 0;
     position: relative;
 
@@ -13,7 +14,8 @@
     }
 
     @media screen and (max-width: 767px) {
-        padding: 40px 0 10px 0;
+        background-position: cover;
+        padding: 30px 0 45px 0;
     }
 
 
@@ -27,6 +29,7 @@
         margin-bottom: 100px;
         margin-left: -4px;
         letter-spacing: 0.01em;
+        text-align: center;
 
         @media screen and (max-width: 991px) {
             line-height: 1.5;
@@ -34,8 +37,8 @@
         }
 
         @media screen and (max-width: 767px) {
-            margin-bottom: 30px;
-            font-size: 28px;
+            margin-bottom: 10px;
+            font-size: 26px;
         }
     }
 
@@ -57,7 +60,7 @@
         font-weight: 400;
         line-height: 26px;
         text-transform: uppercase;
-        margin: 48px 0 27px 40px;
+        margin: 48px 0 37px 40px;
         letter-spacing: -0.03em;
 
         @media screen and (max-width: 1199px) {
@@ -65,10 +68,20 @@
         }
 
         @media screen and (max-width: 991px) {
-            margin: 10px 0 27px 40px;
+            margin: 25px 0 20px 40px;
         }
 
-        @media screen and (max-width: 767px) {}
+        @media screen and (max-width: 767px) {
+            margin: 30px 0 27px 40px;
+        }
+    }
+
+    &__quots {
+        color: #5474FD;
+        font-size: 20px;
+        position: relative;
+        top: -13px;
+        margin-right: 10px;
     }
 
     &__txt {
@@ -78,25 +91,21 @@
         font-family: 'Josefin Sans', sans-serif;
         font-size: 16px;
         margin-left: 41px;
-        letter-spacing: -0.05em;
-
-        &::before {
-            content: '❝';
-            display: inline-block;
-            position: relative;
-            color: #5474FD;
-            font-size: 60px;
-        }
+        letter-spacing: -0.065em;
+        padding-right: 50px;
 
         @media screen and (max-width: 1199px) {
             margin-left: 75px;
+            padding-bottom: 10px;
         }
 
         @media screen and (max-width: 991px) {
             margin-left: 10px;
             margin-bottom: 20px;
+            padding-right: 10px;
         }
     }
+
 
     &__pic {
 
@@ -110,7 +119,6 @@
         display: block;
 
         @media screen and (max-width: 991px) {
-            // display: block;
             position: relative;
             left: -100px;
             overflow: hidden;

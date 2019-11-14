@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="/sidebar_sites_earth_world_globe_20458.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./sidebar_sites_earth_world_globe_20458.ico" type="image/x-icon">
     <title>Bhromaon</title>
     <meta name="description" content="Safe Travel Anywhere With Us">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap" rel="stylesheet">
@@ -17,28 +17,31 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="row">
-                <div class="col-xl-4 offset-xl-4 col-lg-4 offset-lg-4 col-md-4 offset-md-3 col-10 offset-1">
+            <div class="row no-gutters">
+                <div class="col-xl-4 offset-xl-4 col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-10 offset-1">
                     <h1 class="header__title">Bhromaon</h1>
                     <p class="header__subtitle">Safe Travel Anywhere</p>
                 </div>
             </div>
-            <form method="GET" class="header__search search">
+            <form method="get" class="header__search search">
                 <div class="search__form">
-                    <input required id="first-search" type="search" class="search__input">
+                    <input required id="first-search" type="search" name="search" class="search__input">
                     <label for="first-search" class="search__label">Search Your Travel Destination</label>
                 </div>
-                <a class="search__btn">
-                    <p class="search__txt">Search</p>
-                    <i class="fas fa-search search__icon"></i>
-                </a>
+                <div class="search__btn">
+                    <button class="search__submit" type="submit">
+                        <span class="search__span">Search</span>
+                        <i class="fas fa-search search__icon"></i>
+                    </button>
+
+                </div>
             </form>
             <div class="row">
                 <div class="col-12">
-                    <a href="#bhromaon">
+                    <a href="#bhromaon" class="header__scroll">
                         <p class="header__scroll">scroll down</p>
+                        <i class="fas fa-chevron-down"></i>
                     </a>
-                    <a href="#bhromaon"><i class="fas fa-chevron-down header__icon"></i></a>
                 </div>
             </div>
         </div>
@@ -46,7 +49,7 @@
     <nav class="menu">
         <div id="bhromaon"></div>
         <div class="container d-flex align-items-center justify-content-between">
-            <a href="javascript:void(0)"><img src="/img/logo.png"></a>
+            <a href="javascript:void(0)"><img src="./img/logo.png" alt="logo"></a>
             <div>
                 <input type="checkbox" id="bar" class="menu__check">
                 <label for="bar" class="menu__burger d-lg-none">
@@ -67,7 +70,7 @@
             <div class="why">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-6 col-lg-6">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
                             <h2 class=" why__title">Why Choose Us</h2>
                             <p class="why__txt">Tion and dislike men who are so beguiled and demoralized by desire by
                                 the charms
@@ -80,9 +83,9 @@
                             <a class="why__link" href="javascript:void(0)"><span class="why__span">Explore
                                     Places</span></a>
                         </div>
-                        <div class="col-xl-6 col-lg-6  d-md-none d-none">
-                            <img class="why__img-first" src="/img/second1.png">
-                            <img class="why__img-second" src="/img/second2.png">
+                        <div class="col-xl-6 col-lg-6  col-md-6 d-none d-md-block">
+                            <img class="why__img-first" src="./img/second1.png" alt="house">
+                            <img class="why__img-second" src="./img/second2.png" alt="mountain">
                         </div>
                     </div>
                 </div>
@@ -90,25 +93,27 @@
             <section>
                 <div class="book">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                                <div class="book__line">
-                                    <i class="fas fa-search book__search"></i>
-                                    <h2 class="book__title">Search Places</h2>
-                                    <div class="book__shevron"></div>
+                        <div class="book__flex">
+                            <div class="row">
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                                    <div class="book__line">
+                                        <i class="fas fa-search book__search"></i>
+                                        <h2 class="book__title">Search Places</h2>
+                                        <div class="book__shevron"></div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                                <div class="book__line">
-                                    <i class="far fa-check-circle book__circle"></i>
-                                    <h2 class="book__title">Select Places</h2>
-                                    <div class="book__shevron"></div>
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                                    <div class="book__line">
+                                        <i class="far fa-check-circle book__circle"></i>
+                                        <h2 class="book__title">Select Places</h2>
+                                        <div class="book__shevron"></div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-12">
-                                <div class="book__line">
-                                    <i class="far fa-thumbs-up book__thumb"></i>
-                                    <h2 class="book__title">Book & Enjoy</h2>
+                                <div class="col-xl-4 col-lg-4 col-md-4 col-12">
+                                    <div class="book__line">
+                                        <i class="far fa-thumbs-up book__thumb"></i>
+                                        <h2 class="book__title">Book & Enjoy</h2>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -158,7 +163,7 @@
                 <div class="what">
                     <div class="container">
                         <div class="row">
-                            <div class="col-xl-5 offset-xl-4 col-lg-5 offset-lg-4 col-md-8 offset-md-3 col-10 offset-2">
+                            <div class="col-xl-6 offset-xl-3 col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-10 offset-1">
                                 <h2 class="what__title">What Our Tourist Say</h2>
                             </div>
                         </div>
@@ -167,13 +172,16 @@
                                 <div
                                     class="col-xl-5 offset-xl-0 col-lg-5 offset-lg-0 order-lg-first col-md-5 offset-md-0 col-8 offset-2">
                                     <div class="what__pic">
-                                        <img class="what__img" src="/img/five1.png">
+                                        <img class="what__img" src="./img/five1.png" alt="men">
                                     </div>
                                 </div>
                                 <div
                                     class="col-xl-7 offset-xl-0 col-lg-7 offset-lg-0 col-md-7 offset-md-0 order-md-first col-8 offset-2">
                                     <h2 class="what__subtitle">Sam Sumon</h2>
-                                    <p class="what__txt">But I must explain to you how all this mistaken idea of
+                                    <p class="what__txt">
+                                        <i class="fas fa-quote-left what__quots"></i>But I must explain to you how all
+                                        this mistaken
+                                        idea of
                                         account
                                         to denouncinpleasure and praising pain But I must explain to you how all this
                                         mistaken idea of account to nai denouncing pleasure and praising pain was
@@ -193,7 +201,7 @@
     </main>
     <footer>
         <div class="last">
-            <a href="javascript:void(0)" class="last__title"><img src="/img/logo.png" alt="logo"></a>
+            <a href="javascript:void(0)" class="last__title"><img src="./img/logo.png" alt="logo"></a>
             <p class="last__subtitle">Safe Travel Anywhere</p>
             <ul class="last__list">
                 <li><a class="last__link" href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
@@ -204,6 +212,7 @@
             </ul>
         </div>
     </footer>
+
 </body>
 
 </html>
